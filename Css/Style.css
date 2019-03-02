@@ -1,0 +1,104 @@
+body{ 
+    overflow-x:hidden;
+    background-repeat: no-repeat;
+    background: rgba(26,136,239,0.74);
+    background: -moz-linear-gradient(left, rgba(26,136,239,0.74) 0%, rgba(26,136,239,0.82) 29%, rgba(15,106,210,0.9) 61%, rgba(15,106,210,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(26,136,239,0.74)), color-stop(29%, rgba(26,136,239,0.82)), color-stop(61%, rgba(15,106,210,0.9)), color-stop(100%, rgba(15,106,210,1)));
+    background: -webkit-linear-gradient(left, rgba(26,136,239,0.74) 0%, rgba(26,136,239,0.82) 29%, rgba(15,106,210,0.9) 61%, rgba(15,106,210,1) 100%);
+    background: -o-linear-gradient(left, rgba(26,136,239,0.74) 0%, rgba(26,136,239,0.82) 29%, rgba(15,106,210,0.9) 61%, rgba(15,106,210,1) 100%);
+    background: -ms-linear-gradient(left, rgba(26,136,239,0.74) 0%, rgba(26,136,239,0.82) 29%, rgba(15,106,210,0.9) 61%, rgba(15,106,210,1) 100%);
+    background: linear-gradient(to right, rgba(26,136,239,0.74) 0%, rgba(26,136,239,0.82) 29%, rgba(15,106,210,0.9) 61%, rgba(15,106,210,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a88ef', endColorstr='#0f6ad2', GradientType=1 );
+}
+
+/* tabla */
+table.table-bordered{
+        background-color: rgba(59, 59, 59, 0.685);
+        color: azure;   
+        -webkit-box-shadow: 10px 10px 70px -5px rgba(0,0,0,0.72);
+        -moz-box-shadow: 10px 10px 70px -5px rgba(0,0,0,0.72);
+        box-shadow: 10px 10px 70px -5px rgba(0,0,0,0.72);        
+}
+
+/* encabezado de la tabla */ 
+thead{
+    background-color:rgba(44, 44, 44, 0.884);
+    color: azure;
+    text-align: center;
+    font-size: 1.4em;
+    
+}
+
+/* interlineado */
+tr:nth-child(even){
+    background-color: #1b1b1b98;
+}
+
+/* Login */
+.Login{
+    padding:8%;
+    color:azure;
+    -webkit-box-shadow: 10px 10px 70px -5px rgba(0,0,0,0.72);
+    -moz-box-shadow: 10px 10px 70px -5px rgba(0,0,0,0.72);
+    box-shadow: 10px 10px 70px -5px rgba(0,0,0,0.72);
+    background-color: rgba(49, 49, 49, 0.897);
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px solid #000000;
+}
+
+nav{   
+    color:azure;
+    -webkit-box-shadow: 10px 10px 70px -5px rgba(0,0,0,0.72);
+    -moz-box-shadow: 10px 10px 70px -5px rgba(0,0,0,0.72);
+    box-shadow: 10px 10px 70px -5px rgba(0,0,0,0.72);
+}
+
+
+a{
+    color:azure;
+ }
+ 
+ /* formularios */
+.form{
+    -webkit-box-shadow: 10px 10px 70px -5px rgba(0,0,0,0.72);
+    -moz-box-shadow: 10px 10px 70px -5px rgba(0,0,0,0.72);
+    box-shadow: 10px 10px 70px -5px rgba(0,0,0,0.72);
+    background-color: rgba(49, 49, 49, 0.897);
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+}
+
+h1{
+    text-align: center;
+    color:azure;
+}
+
+.cabecera{
+    float: left;
+}
+
+/* Barra de progreso */
+.progress{
+    background-color:  rgba(255, 55, 55, 0.658);
+    height: 25px;
+    font-size: 15px;
+}
+
+/* chekbox */
+
+input[type=checkbox] {
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+
+input[type=checkbox]:checked:before {
+	content: '✓';
+	font-size: 50px;
+	color: #88c64b;
+	font-family: "Times New Roman";
+}
+
